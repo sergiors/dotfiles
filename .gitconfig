@@ -1,6 +1,6 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Sérgio Rafael Siqueira
-  email = sergio@betaeducacao.com.br
+        email = osergiosiqueira@gmail.com
 [core]
 	editor = vim
