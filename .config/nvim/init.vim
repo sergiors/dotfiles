@@ -2,6 +2,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 
 call plug#begin('~/.vim/plugged')
+Plug 'arcticicestudio/nord-vim'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mattn/emmet-vim'
@@ -15,7 +16,7 @@ let NERDTreeShowHidden=1
 let g:indentLine_color_term = 239
 
 syntax on
-colorschem peachpuff
+colorschem nord
 
 if has('mouse')
   set mouse=a
