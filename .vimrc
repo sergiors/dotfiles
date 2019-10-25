@@ -14,7 +14,6 @@ let NERDTreeShowHidden=1
 let g:indentLine_color_term = 239
 
 syntax on
-
 colorschem peachpuff
 
 if has('mouse')
@@ -31,14 +30,11 @@ set smartindent
 set smarttab
 set softtabstop=4
 
-set relativenumber
 set number
-set visualbell
 set ruler
 
 set laststatus=2
 
-set invlist
 set list
 set listchars=tab:¦\ ,trail:~,extends:>,precedes:<,space:⋅
 
