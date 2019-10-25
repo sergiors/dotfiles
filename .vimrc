@@ -8,6 +8,7 @@ Plug 'mattn/emmet-vim'
 Plug 'pangloss/vim-javascript'
 Plug 'Yggdroot/indentLine'
 Plug 'w0rp/ale'
+Plug 'wakatime/vim-wakatime'
 call plug#end()
 
 let NERDTreeShowHidden=1
