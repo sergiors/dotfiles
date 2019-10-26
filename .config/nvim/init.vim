@@ -3,9 +3,6 @@ set fileencoding=utf-8
 
 call plug#begin('~/.vim/plugged')
 Plug 'arcticicestudio/nord-vim'
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'editorconfig/editorconfig-vim'
-Plug 'mattn/emmet-vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'Yggdroot/indentLine'
@@ -15,16 +12,14 @@ Plug 'isRuslan/vim-es6'
 Plug 'vim-syntastic/syntastic'
 Plug 'nvie/vim-flake8'
 Plug 'vim-airline/vim-airline'
-Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
-let NERDTreeShowHidden=1
 let python_highlight_all=1
 let g:indentLine_color_term = 239
-let g:airline#extensions#tabline#enabled = 1
 
 syntax on
-colorschem nord
+colorscheme nord
 
 if has('mouse')
   set mouse=a
