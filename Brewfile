@@ -21,8 +21,6 @@ brew "apr-util"
 brew "awscli"
 # Core application library for C
 brew "glib"
-# Cloudflare Tunnel client (formerly Argo Tunnel)
-brew "cloudflared"
 # C library implementing the SSH2 protocol
 brew "libssh2"
 # Tool for downloading RTMP streaming media
@@ -77,8 +75,6 @@ brew "libzip"
 brew "miller"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
 # Image manipulation
 brew "netpbm"
 # Open-source, cross-platform JavaScript runtime environment
@@ -113,8 +109,6 @@ cask "discord"
 cask "docker-desktop"
 # Web browser
 cask "firefox"
-# Web browser
-cask "firefox@developer-edition"
 cask "font-fira-code"
 # Web browser
 cask "google-chrome"
@@ -128,8 +122,6 @@ cask "iterm2"
 cask "macpass"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
-# Reverse proxy, secure introspectable tunnels to localhost
-cask "ngrok"
 # Client-side GUI application for modern database development and operations
 cask "nosql-workbench"
 # Knowledge base that works on top of a local folder of plain text Markdown files
