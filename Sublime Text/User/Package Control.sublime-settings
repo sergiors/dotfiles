@@ -1,0 +1,24 @@
+{
+	"installed_packages":
+	[
+		"A File Icon",
+		"Astro",
+		"BracketHighlighter",
+		"Emmet",
+		"GitGutter",
+		"JsPrettier",
+		"LSP",
+		"LSP-astro",
+		"LSP-dockerfile",
+		"LSP-pyright",
+		"LSP-ruff",
+		"LSP-tailwindcss",
+		"LSP-typescript",
+		"LSP-yaml",
+		"Package Control",
+		"WakaTime",
+	],
+	"in_process_packages":
+	[
+	],
+}

@@ -1,0 +1,34 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+  "clients": {
+    "pyright": {
+      "enabled": true,
+      "settings": {
+        "python.analysis.autoImportCompletions": true,
+        "python.analysis.autoSearchPaths": true,
+        "python.analysis.useLibraryCodeForTypes": true,
+        "python.analysis.typeCheckingMode": "standard",
+        "python.analysis.diagnosticMode": "workspace",
+        "python.analysis.diagnosticSeverityOverrides": {
+          "reportUnusedImport": "none",
+        },
+        "python.venv": ".venv",
+        "python.venvPath": "${folder}",
+        "python.pythonPath": "${folder}/.venv/bin/python",
+        "python.analysis.extraPaths": ["tests"],
+      },
+      "experimental_capabilities": {
+        "didChangeWatchedFiles": true,
+      },
+      "watchers": [
+        {
+          "glob": "**/*.py",
+        },
+      ],
+    },
+  },
+  "lsp_format_on_save": true,
+  "lsp_code_actions_on_save": {
+    "source.organizeImports": true,
+  },
+}

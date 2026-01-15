@@ -1,0 +1,25 @@
+{
+	"font_size": 15.4,
+	"font_face": "Fira Code",
+	"font_options": [
+		"gray_antialias"
+	],
+	"ignored_packages": ["Vintage",
+	],
+	"rulers": [80, 120],
+	"relative_line_numbers": true,
+	"highlight_line": true,
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"index_files": false,
+	"sidebar_on_right": true,
+	"draw_white_space": [
+		"all"
+	],
+	"folder_exclude_patterns": [
+		".*",
+		"__pycache__",
+		"node_modules",
+		"htmlcov"
+	],
+}
