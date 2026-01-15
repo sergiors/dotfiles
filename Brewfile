@@ -1,9 +1,6 @@
 tap "aws/tap"
-tap "dokku/repo"
-tap "hashicorp/tap"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
-tap "jesseduffield/lazygit"
 tap "saulpw/vd"
 tap "teamookla/speedtest"
 # TIFF library and utilities
@@ -72,8 +69,6 @@ brew "go"
 brew "htop"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Simple terminal UI for git commands
-brew "lazygit"
 # Postgres C API library
 brew "libpq"
 # C library for reading, creating, and modifying zip archives
@@ -96,8 +91,6 @@ brew "pandoc-plot"
 brew "protobuf"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
-# Persistent key-value database, with built-in net interface
-brew "redis"
 # Steel Bank Common Lisp system
 brew "sbcl"
 # SMART hard drive monitoring
@@ -106,10 +99,6 @@ brew "smartmontools"
 brew "telnet"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Command-line client for the Dokku PaaS
-brew "dokku/repo/dokku"
-# Terraform
-brew "hashicorp/tap/terraform"
 # Terminal utility for exploring and arranging tabular data
 brew "saulpw/vd/visidata"
 # Ookla Speedtest
@@ -118,14 +107,10 @@ brew "teamookla/speedtest/speedtest"
 cask "balenaetcher"
 # Cross platform SQL editor and database management app
 cask "beekeeper-studio"
-# Server and cloud storage browser
-cask "cyberduck"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
-# Collaborative team software
-cask "figma"
 # Web browser
 cask "firefox"
 # Web browser
@@ -139,8 +124,6 @@ cask "guitar-pro"
 cask "httpie-desktop"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Desktop application for JupyterLab
-cask "jupyterlab-app"
 # Open-source, KeePass-client and password manager
 cask "macpass"
 # Interactive tool for analyzing MongoDB data
@@ -149,8 +132,6 @@ cask "mongodb-compass"
 cask "ngrok"
 # Client-side GUI application for modern database development and operations
 cask "nosql-workbench"
-# App to write, plan, collaborate, and get organised
-cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -161,8 +142,6 @@ cask "redis-insight"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
-# Open-source media center
-cask "stremio"
 # Text editor for code, markup and prose
 cask "sublime-text"
 # Messaging app with a focus on speed and security
@@ -171,5 +150,3 @@ cask "telegram"
 cask "tor-browser"
 # Native desktop client for WhatsApp
 cask "whatsapp"
-# Multiplayer code editor
-cask "zed"
