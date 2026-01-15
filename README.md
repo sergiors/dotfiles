@@ -5,6 +5,7 @@ ln -s ~/dotfiles/Sublime\ Text/User \
 
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.aliases ~/.aliases
+ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 ```
 
 ## Homebrew

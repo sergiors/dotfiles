@@ -1,0 +1,7 @@
+[user]
+	name = Sérgio Rafael Siqueira
+	email = osergiosiqueira@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
