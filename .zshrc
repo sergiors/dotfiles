@@ -9,3 +9,4 @@ fi
 
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:/opt/homebrew/bin"
+export PATH="/opt/homebrew/opt/ffmpeg-full/bin:$PATH"

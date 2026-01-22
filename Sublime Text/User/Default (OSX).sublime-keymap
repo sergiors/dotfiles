@@ -19,20 +19,12 @@
 		]
 	},
 
-	{ "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
-		[
-			{
-				"operand": "source.js.jsx", 
-				"operator": "equal", 
-				"match_all": true, 
-				"key": "selector"
-			},
-			{   
-				"key": "selection_empty", 
-				"operator": "equal", 
-				"operand": true,
-				"match_all": true 
-			}
-		]
-	}
+	{
+		"keys": ["alt+up"], "command": "move_amount",
+		"args": {"by": "lines", "amount": 10, "forward": false}
+	},
+	{
+		"keys": ["alt+down"], "command": "move_amount",
+		"args": {"by": "lines", "amount": 10, "forward": true}
+	},
 ]
